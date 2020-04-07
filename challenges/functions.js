@@ -29,15 +29,15 @@ function greeting(firstName, lastName) {
 };
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// console.log(consume(2, 2, add)); // 4
-// console.log(consume(10, 16, multiply)); // 160
-// console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
+ console.log(consume(2, 2, add)); // 4
+ console.log(consume(10, 16, multiply)); // 160
+ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
 
 
 // ==== Closures ==== 
 
 // Explain in your own words why nestedfunction can access the variable internal.
-
+//a nested function is a function inside of another function. By going through the parent function it is possible to access variables inside and out of the scope 
 // Explanation: 
 
 
